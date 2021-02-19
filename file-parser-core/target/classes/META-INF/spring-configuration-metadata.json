@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "file-parser.type.simple-local-file",
+      "type": "org.hicx.fileparser.property.SimpleLocalFileTaskProperty",
+      "sourceType": "org.hicx.fileparser.property.SimpleLocalFileTaskProperty"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file-parser.type.simple-local-file.destination-path",
+      "type": "java.lang.String",
+      "sourceType": "org.hicx.fileparser.property.SimpleLocalFileTaskProperty"
+    },
+    {
+      "name": "file-parser.type.simple-local-file.source-path",
+      "type": "java.lang.String",
+      "sourceType": "org.hicx.fileparser.property.SimpleLocalFileTaskProperty"
+    },
+    {
+      "name": "file-parser.type.simple-local-file.supported-types",
+      "type": "java.util.Set<java.lang.String>",
+      "description": "Supported file types of this task producer",
+      "sourceType": "org.hicx.fileparser.property.SimpleLocalFileTaskProperty"
+    }
+  ],
+  "hints": []
+}
